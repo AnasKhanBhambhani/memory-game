@@ -46,7 +46,7 @@ const CardStore = types
             return cards.sort(() => Math.random() - 0.5);
         },
         shuffleCards() {
-            if (self.cards.length === 6) {
+            if (self.cards.length === 6) {  
                 var newCardArray = self.createCardArray();
             }
             else {
